@@ -34,9 +34,9 @@
 #define WELCOME_MSG_FIRST_LINE "Amber"
 #define WELCOME_MSG_SECOND_LINE "v1.0 Loading......"
 #define READING_SENSOR_INTERVAL 10000     // Interval to read ALL sensors. 10s interval.
-#define ENABLE_CLOCK_DS1302 1             // 1: Enable Clock, 0; Disable Clock.
+#define ENABLE_CLOCK_DS1302 0             // 1: Enable Clock, 0; Disable Clock.
 #define DISPLAY_CLOCK_DS1302_ON_LED 1     // 1: Display time on LED; 0: Dont display.
-#define ENABLE_SD_CARD 1                  // 1: Enable SD Card, 0; Disable.
+#define ENABLE_SD_CARD 0                 // 1: Enable SD Card, 0; Disable.
 #define SD_CARD_FILENAME "MONITOR.TXT"    // Filename "FAT" 8.3 format (XXXXXXXX.XXX) You must use the 8.3 format, so that file names look like “NAME001.EXT”, where “NAME001” is an 8 character or fewer string, and “EXT” is a 3 character extension.
                                           // SD Card must be formatted as the "FAT" filesystem first. 
 // ------------------------------------------
@@ -71,9 +71,9 @@
 #define CLOCK_DAT_PIN 6  //DAT  
 #define CLOCK_CLK_PIN 7  //CLK
 //  PMS3003     Arduino(UNO)
-//  RST         PIN10
-//  DAT         PIN8
-//  CLK         PIN9  
+//  RST         PIN8
+//  DAT         PIN6
+//  CLK         PIN7  
 
 // SD Card PIN:
 #define SD_CARD_CS_PIN 10  // CS

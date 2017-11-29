@@ -31,7 +31,7 @@
 //  Software Configuration (BEGIN)
 // ------------------------------------------
 #define SERIAL_BAUD_RATE 9600
-#define WELCOME_MSG_FIRST_LINE "Amber"
+#define WELCOME_MSG_FIRST_LINE "Amber Caffe Lab."
 #define WELCOME_MSG_SECOND_LINE "v1.0 Loading......"
 #define READING_SENSOR_INTERVAL 10000     // Interval to read ALL sensors. 10s interval.
 #define ENABLE_CLOCK_DS1302 0             // 1: Enable Clock, 0; Disable Clock.
